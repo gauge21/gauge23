@@ -48,70 +48,94 @@
 
 <h2> Next Steps </h2>
 <p>
-  Going forward, three main things need to be done.
+  Going forward, 2 main things need to be done.
   <ol type="1">
-    <li>Re-rendering with React</li>
     <li>SQL Tables</li>
     <li>Charts</li>
+    <li>Functions</li>
   </ol>
-  
+  For SQL Tables, this requires a separate table that would update and store emotion values based on the date. Additionally, this would require the creation/usage of personal IDs for each user. With a randomly generated unique ID, the emotion table can be joined in SQL.
+
+  For the charts, re-rendering using useEffect and JSON conversion to create an array that can be passed through into the charts.  
+
+  For functions, the ability to call an SQL script where a specific user's information can be pulled. This needs further research as finding information about using a Typescript function to pass a parameter into JSON was difficult. This would be used in accessing information for charts. 
 </p>
   
 
 <h2> Additional Resources </h2>
 <p>
   If you are having Firewall Issues
-  
-  https://learn.microsoft.com/en-us/azure/azure-sql/database/firewall-configure?view=azuresql#from-the-database-overview-page
+  <li>
+    https://learn.microsoft.com/en-us/azure/azure-sql/database/firewall-configure?view=azuresql#from-the-database-overview-page
+  </li>
+
   
   Create Azure Database
-  
-  https://learn.microsoft.com/en-us/azure/azure-sql/database/single-database-create-quickstart?view=azuresql&tabs=azure-portal
+  <li>
+    https://learn.microsoft.com/en-us/azure/azure-sql/database/single-database-create-quickstart?view=azuresql&tabs=azure-portal
+  </li>
   
   Integrate Azure SQL Database into Teams App
-  
-  https://github.com/OfficeDev/TeamsFx/wiki/Integrate-Azure-SQL-Database-with-your-Teams-app
+  <li>
+    https://github.com/OfficeDev/TeamsFx/wiki/Integrate-Azure-SQL-Database-with-your-Teams-app
+  </li>
   
   Turning our function into an API
+  <li>
+    https://learn.microsoft.com/en-us/azure/azure-functions/functions-openapi-definition
+  </li>
   
-  https://learn.microsoft.com/en-us/azure/azure-functions/functions-openapi-definition
   
   Update or Merge Records in Azure SQL using Azure Function
-  
-  https://learn.microsoft.com/en-us/azure/stream-analytics/sql-database-upsert
+  <li>
+    https://learn.microsoft.com/en-us/azure/stream-analytics/sql-database-upsert
+  </li>
   
   Code Samples
-  
-  https://learn.microsoft.com/en-us/samples/browse/?products=azure-functions&languages=typescript
+  <li>
+     https://learn.microsoft.com/en-us/samples/browse/?products=azure-functions&languages=typescript
+  </li>
   
   Video that explains how Azure SQL works in an App
+  <li>
+     https://www.youtube.com/watch?v=4gA8Fp2lPBI&ab_channel=MicrosoftReactor
+  </li>
   
-  https://www.youtube.com/watch?v=4gA8Fp2lPBI&ab_channel=MicrosoftReactor
   
   Integrate Azure Function with your Teams App
-  
-  https://github.com/OfficeDev/TeamsFx/wiki/How-to-integrate-Azure-Functions-with-your-Teams-app
+  <li>
+    https://github.com/OfficeDev/TeamsFx/wiki/How-to-integrate-Azure-Functions-with-your-Teams-app
+  </li>
   
   API Connection with Teams App
-  
-  https://github.com/OfficeDev/TeamsFx/wiki/Integrate-API-Connection-with-your-Teams-app
+  <li>
+    https://github.com/OfficeDev/TeamsFx/wiki/Integrate-API-Connection-with-your-Teams-app
+  </li>
   
   Good to know Teams Apps
+  <li>
+    https://learn.microsoft.com/en-gb/microsoftteams/platform/get-started/get-started-overview
+  </li>
+  <li>
+    https://learn.microsoft.com/en-gb/microsoftteams/platform/toolkit/teamsfx-sdk
+  </li>
+  <li>
+    https://github.com/OfficeDev/TeamsFx/wiki/Develop-single-sign-on-experience-in-Teams
+  </li>
+  <li>
+    https://learn.microsoft.com/en-us/graph/sdks/sdks-overview
+  </li>
   
-  https://learn.microsoft.com/en-gb/microsoftteams/platform/get-started/get-started-overview
-  
-  https://learn.microsoft.com/en-gb/microsoftteams/platform/toolkit/teamsfx-sdk
-  
-  https://github.com/OfficeDev/TeamsFx/wiki/Develop-single-sign-on-experience-in-Teams
-  
-  https://learn.microsoft.com/en-us/graph/sdks/sdks-overview
-
   Azure SQL
-  https://learn.microsoft.com/en-us/azure/azure-sql/database/connect-query-portal?view=azuresql
-  
-  https://github.com/OfficeDev/TeamsFx/wiki/Integrate-Azure-API-Management-with-your-Teams-App-and-export-the-api-to-power-app
+  <li>
+    https://learn.microsoft.com/en-us/azure/azure-sql/database/connect-query-portal?view=azuresql
+  </li>
+  <li>
+    https://github.com/OfficeDev/TeamsFx/wiki/Integrate-Azure-API-Management-with-your-Teams-App-and-export-the-api-to-power-app
+  </li>
   
   Bicep
-  
-  https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/overview?tabs=bicep
+  <li>
+      https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/overview?tabs=bicep
+  </li>
 </p>
