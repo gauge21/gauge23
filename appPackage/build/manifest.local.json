@@ -1,0 +1,52 @@
+{
+    "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.16/MicrosoftTeams.schema.json",
+    "manifestVersion": "1.16",
+    "version": "1.0.0",
+    "id": "a61db026-66d9-4b48-819e-77b39bc2ec73",
+    "packageName": "com.microsoft.teams.extension",
+    "developer": {
+        "name": "Teams App, Inc.",
+        "websiteUrl": "https://localhost:53000",
+        "privacyUrl": "https://localhost:53000/index.html#/privacy",
+        "termsOfUseUrl": "https://localhost:53000/index.html#/termsofuse"
+    },
+    "icons": {
+        "color": "color.png",
+        "outline": "outline.png"
+    },
+    "name": {
+        "short": "gauge23-local",
+        "full": "Full name for gauge23"
+    },
+    "description": {
+        "short": "Short description of gauge23",
+        "full": "Full description of gauge23"
+    },
+    "accentColor": "#FFFFFF",
+    "bots": [],
+    "composeExtensions": [],
+    "configurableTabs": [],
+    "staticTabs": [
+        {
+            "entityId": "index0",
+            "name": "Personal Tab",
+            "contentUrl": "https://localhost:53000/index.html#/tab",
+            "websiteUrl": "https://localhost:53000/index.html#/tab",
+            "scopes": [
+                "personal"
+            ]
+        }
+    ],
+    "permissions": [
+        "identity",
+        "messageTeamMembers"
+    ],
+    "validDomains": [
+        "localhost:53000"
+    ],
+    "webApplicationInfo": {
+        "id": "b39f12f9-4660-44f2-8108-d48a7cf20425",
+        "resource": "api://localhost:53000/b39f12f9-4660-44f2-8108-d48a7cf20425"
+    },
+    "showLoadingIndicator": false
+}
