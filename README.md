@@ -64,55 +64,62 @@
 
 <h2> Additional Resources </h2>
 <p>
-  If you are having Firewall Issues
+  <b>If you are having Firewall Issues</b>
   <li>
     https://learn.microsoft.com/en-us/azure/azure-sql/database/firewall-configure?view=azuresql#from-the-database-overview-page
   </li>
+  <br> </br>
 
   
-  Create Azure Database
+  <b>Create Azure Database</b>
   <li>
     https://learn.microsoft.com/en-us/azure/azure-sql/database/single-database-create-quickstart?view=azuresql&tabs=azure-portal
   </li>
+  <br> </br>
   
-  Integrate Azure SQL Database into Teams App
+  <b>Integrate Azure SQL Database into Teams App</b>
   <li>
     https://github.com/OfficeDev/TeamsFx/wiki/Integrate-Azure-SQL-Database-with-your-Teams-app
   </li>
+  <br> </br>
   
-  Turning our function into an API
+  <b>Turning our function into an API</b>
   <li>
     https://learn.microsoft.com/en-us/azure/azure-functions/functions-openapi-definition
   </li>
+  <br> </br>
   
-  
-  Update or Merge Records in Azure SQL using Azure Function
+  <b>Update or Merge Records in Azure SQL using Azure Function</b>
   <li>
     https://learn.microsoft.com/en-us/azure/stream-analytics/sql-database-upsert
   </li>
+  <br> </br>
   
-  Code Samples
+  <b>Code Samples</b>
   <li>
      https://learn.microsoft.com/en-us/samples/browse/?products=azure-functions&languages=typescript
   </li>
+  <br> </br>
   
-  Video that explains how Azure SQL works in an App
+  <b>Video that explains how Azure SQL works in an App</b>
   <li>
      https://www.youtube.com/watch?v=4gA8Fp2lPBI&ab_channel=MicrosoftReactor
   </li>
+  <br> </br>
   
-  
-  Integrate Azure Function with your Teams App
+  <b>Integrate Azure Function with your Teams App</b>
   <li>
     https://github.com/OfficeDev/TeamsFx/wiki/How-to-integrate-Azure-Functions-with-your-Teams-app
   </li>
+  <br> </br>
   
-  API Connection with Teams App
+  <b>API Connection with Teams App</b>
   <li>
     https://github.com/OfficeDev/TeamsFx/wiki/Integrate-API-Connection-with-your-Teams-app
   </li>
+  <br> </br>
   
-  Good to know Teams Apps
+  <b>Good to know Teams Apps</b>
   <li>
     https://learn.microsoft.com/en-gb/microsoftteams/platform/get-started/get-started-overview
   </li>
@@ -125,17 +132,21 @@
   <li>
     https://learn.microsoft.com/en-us/graph/sdks/sdks-overview
   </li>
+  <br> </br>
   
-  Azure SQL
+  <b>Azure SQL</b>
   <li>
     https://learn.microsoft.com/en-us/azure/azure-sql/database/connect-query-portal?view=azuresql
   </li>
   <li>
     https://github.com/OfficeDev/TeamsFx/wiki/Integrate-Azure-API-Management-with-your-Teams-App-and-export-the-api-to-power-app
   </li>
+  <br> </br>
   
-  Bicep
+  <b>Bicep</b>
   <li>
       https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/overview?tabs=bicep
   </li>
+  <br> </br>
+  
 </p>
