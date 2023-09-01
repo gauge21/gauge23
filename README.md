@@ -38,7 +38,7 @@
   
 <h2> Function </h2>
 <p>
-  Two functions are being hosted on Azure called gauge-functions. Input, which takes information from the Azure database, and Output, which pushes information to the database.
+  Two functions are being hosted on Azure called gauge-functions. Input, which takes information from the Azure database, and Output, which pushes information to the database. To call the functions, an API call using axios is used instead of jquery.
 </p>
 
 <h2> Azure </h2>
