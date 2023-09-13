@@ -15,52 +15,83 @@ export default function Charts() {
     })
   }, [])
 
+
+  const chartData = parseInt(dataArray.substring(41,43))
+  const date = Date()
+
+  //this is where calculations would go
     const [graphData, setGraphData] = useState({
-        labels: [],
+        label: 'Emotion',
+        backgroundColor: 'rgba(75,192,192,1)',
+        borderColor: 'rgba(0,0,0,1)',
+        borderWidth: 2,
         datasets: [
           {
-            label: 'Emotion',
-            backgroundColor: 'rgba(75,192,192,1)',
-            borderColor: 'rgba(0,0,0,1)',
-            borderWidth: 2,
-            data: [],
+           
+            data: [chartData],
           },
         ],
       });
     const [averageGraphData, setAverageGraphData] = useState({
-        labels: [],
+        label: 'Emotion',
+        backgroundColor: 'rgba(75,192,192,1)',
+        borderColor: 'rgba(0,0,0,1)',
+        borderWidth: 2,
         datasets: [
           {
-            label: 'Emotion',
-            backgroundColor: 'rgba(75,192,192,1)',
-            borderColor: 'rgba(0,0,0,1)',
-            borderWidth: 2,
-            data: [],
+            id: date,
+            label: '',
+            data: [chartData],
           },
         ],
     });
+
     const [highestAverageGraph, setHighestAverageGraph] = useState({
-        labels: [],
+        label: 'Emotion',
+        
         datasets: [
           {
-            label: 'Emotion',
-            backgroundColor: 'rgba(75,192,192,1)',
-            borderColor: 'rgba(0,0,0,1)',
-            borderWidth: 2,
-            data: [],
+            id: date,
+            label: '',
+            data: [chartData],
           },
         ],
     });
 
     return (
         <div>
-            <h1>{dataArray ?? "Placeholder"}</h1>
+            {/* <h1>{dataArray ?? "Placeholder"}</h1> */}
             <h2> My Logbook </h2>
-            <Line data={graphData} />
+            <Line 
+            data={{
+              labels: [date],
+              datasets: [
+                {
+                  label: '',
+                  data: [chartData]
+                }
+              ]
+            }} />
             <h2> Daily Average </h2>
-            <Line data={averageGraphData} />
+            <Line data={{
+              labels: [date],
+              datasets: [
+                {
+                  label: '',
+                  data: [chartData]
+                }
+              ]
+            }} />
             <h2> Highest Average Emotion Over Past Month </h2>
-            <Bar data={highestAverageGraph} />
+            <Bar data={{
+              labels: [date],
+              datasets: [
+                {
+                  label: '',
+                  data: [chartData]
+                }
+              ]
+            }} />
         </div>
     )
 }

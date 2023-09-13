@@ -11,6 +11,7 @@ export default function Gauge() {
     const [emotion, setEmotion] = useState(0);
 
     const userName = User()
+    const date = Date()
 
     useEffect(() => {
         // componentDidMount equivalent
@@ -64,6 +65,7 @@ export default function Gauge() {
           "ID": 1, 
           "Name": userName,
           "Emotion": emotion
+          
         }
         addUserData(userInfo)
       };
